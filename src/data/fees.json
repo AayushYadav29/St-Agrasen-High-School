@@ -1,0 +1,114 @@
+[
+  {
+    "class": "Nursery",
+    "admissionFee": 15000,
+    "tuitionFee": 45000,
+    "transportFee": 12000,
+    "activityFee": 8000,
+    "total": 80000
+  },
+  {
+    "class": "KG",
+    "admissionFee": 15000,
+    "tuitionFee": 48000,
+    "transportFee": 12000,
+    "activityFee": 8000,
+    "total": 83000
+  },
+  {
+    "class": "Class 1",
+    "admissionFee": 18000,
+    "tuitionFee": 52000,
+    "transportFee": 14000,
+    "activityFee": 10000,
+    "total": 94000
+  },
+  {
+    "class": "Class 2",
+    "admissionFee": 18000,
+    "tuitionFee": 52000,
+    "transportFee": 14000,
+    "activityFee": 10000,
+    "total": 94000
+  },
+  {
+    "class": "Class 3",
+    "admissionFee": 18000,
+    "tuitionFee": 55000,
+    "transportFee": 14000,
+    "activityFee": 10000,
+    "total": 97000
+  },
+  {
+    "class": "Class 4",
+    "admissionFee": 18000,
+    "tuitionFee": 55000,
+    "transportFee": 14000,
+    "activityFee": 10000,
+    "total": 97000
+  },
+  {
+    "class": "Class 5",
+    "admissionFee": 20000,
+    "tuitionFee": 60000,
+    "transportFee": 15000,
+    "activityFee": 12000,
+    "total": 107000
+  },
+  {
+    "class": "Class 6",
+    "admissionFee": 20000,
+    "tuitionFee": 65000,
+    "transportFee": 15000,
+    "activityFee": 12000,
+    "total": 112000
+  },
+  {
+    "class": "Class 7",
+    "admissionFee": 20000,
+    "tuitionFee": 65000,
+    "transportFee": 15000,
+    "activityFee": 12000,
+    "total": 112000
+  },
+  {
+    "class": "Class 8",
+    "admissionFee": 22000,
+    "tuitionFee": 70000,
+    "transportFee": 16000,
+    "activityFee": 14000,
+    "total": 122000
+  },
+  {
+    "class": "Class 9",
+    "admissionFee": 25000,
+    "tuitionFee": 75000,
+    "transportFee": 16000,
+    "activityFee": 14000,
+    "total": 130000
+  },
+  {
+    "class": "Class 10",
+    "admissionFee": 25000,
+    "tuitionFee": 75000,
+    "transportFee": 16000,
+    "activityFee": 14000,
+    "total": 130000
+  },
+  {
+    "class": "Class 11",
+    "admissionFee": 30000,
+    "tuitionFee": 85000,
+    "transportFee": 18000,
+    "activityFee": 15000,
+    "total": 148000
+  },
+  {
+    "class": "Class 12",
+    "admissionFee": 30000,
+    "tuitionFee": 85000,
+    "transportFee": 18000,
+    "activityFee": 15000,
+    "total": 148000
+  }
+]

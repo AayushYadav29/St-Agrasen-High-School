@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Agrawal",
+    "role": "Parent of Class 10 Student",
+    "text": "St. Agrasen has provided excellent education to my child. The teachers are dedicated and the KECT management ensures quality education at affordable fees."
+  },
+  {
+    "id": 2,
+    "name": "Priya Mehta",
+    "role": "Parent of Jr. College Student",
+    "text": "The Commerce stream here is outstanding. My daughter secured admission in top colleges thanks to the excellent coaching and guidance from AGI faculty."
+  },
+  {
+    "id": 3,
+    "name": "Amit Patil",
+    "role": "Parent of Class 8 Student",
+    "text": "Being in Kalwa East, this school is easily accessible and provides world-class facilities. The holistic development approach is commendable."
+  },
+  {
+    "id": 4,
+    "name": "Sunita Desai",
+    "role": "Parent of Class 12 Science Student",
+    "text": "The Science stream preparation is excellent. My son is well-prepared for engineering entrance exams. Thank you KECT and St. Agrasen!"
+  },
+  {
+    "id": 5,
+    "name": "Vikram Shah",
+    "role": "Parent of Class 5 Student",
+    "text": "The values and discipline taught here along with quality education make St. Agrasen the best choice in Thane. Proud to be part of this institution."
+  }
+]
