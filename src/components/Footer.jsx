@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
+import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
+import XIcon from './XIcon'
 import GlassCard from './GlassCard'
 
 const Footer = () => {
@@ -26,7 +27,7 @@ const Footer = () => {
                   <li key={item}>
                     <Link
                       to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
-                      className="text-gray-800 hover:text-gray-600 transition-colors text-sm font-medium"
+                      className="text-gray-800 hover:text-teal-600 transition-colors duration-300 text-sm font-medium inline-block"
                     >
                       {item}
                     </Link>
@@ -58,23 +59,47 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4 text-gray-900">Follow Us</h4>
               <div className="flex space-x-3">
-                {[
-                  { Icon: Facebook, color: 'hover:bg-blue-600', link: 'https://www.facebook.com/p/St-Agrasen-High-School-Jr-College-Kalwa-100067052979705/', label: 'Facebook' },
-                  { Icon: Twitter, color: 'hover:bg-sky-500', link: '#', label: 'Twitter' },
-                  { Icon: Instagram, color: 'hover:bg-pink-600', link: '#', label: 'Instagram' },
-                  { Icon: Linkedin, color: 'hover:bg-blue-700', link: '#', label: 'LinkedIn' },
-                ].map(({ Icon, color, link, label }, index) => (
-                  <a
-                    key={index}
-                    href={link}
-                    target={link !== '#' ? '_blank' : undefined}
-                    rel={link !== '#' ? 'noopener noreferrer' : undefined}
-                    aria-label={label}
-                    className={`p-2 rounded-xl bg-teal-100 text-gray-700 ${color} hover:text-white transition-all duration-300 hover:scale-110`}
-                  >
-                    <Icon className="w-5 h-5" />
-                  </a>
-                ))}
+                {/* Facebook */}
+                <a
+                  href="https://www.facebook.com/p/St-Agrasen-High-School-Jr-College-Kalwa-100067052979705/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="group relative p-3 rounded-xl bg-white border-2 border-teal-200 text-gray-700 hover:border-teal-600 hover:bg-teal-600 hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-teal-600/30"
+                >
+                  <Facebook className="w-5 h-5 relative z-10" />
+                  <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-600 to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </a>
+
+                {/* X (Twitter) */}
+                <a
+                  href="#"
+                  aria-label="X (Twitter)"
+                  className="group relative p-3 rounded-xl bg-white border-2 border-teal-200 text-gray-700 hover:border-teal-600 hover:bg-teal-600 hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-teal-600/30"
+                >
+                  <XIcon className="w-5 h-5 relative z-10" />
+                  <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-600 to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </a>
+
+                {/* Instagram */}
+                <a
+                  href="#"
+                  aria-label="Instagram"
+                  className="group relative p-3 rounded-xl bg-white border-2 border-teal-200 text-gray-700 hover:border-teal-600 hover:bg-teal-600 hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-teal-600/30"
+                >
+                  <Instagram className="w-5 h-5 relative z-10" />
+                  <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-600 to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </a>
+
+                {/* LinkedIn */}
+                <a
+                  href="#"
+                  aria-label="LinkedIn"
+                  className="group relative p-3 rounded-xl bg-white border-2 border-teal-200 text-gray-700 hover:border-teal-600 hover:bg-teal-600 hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-teal-600/30"
+                >
+                  <Linkedin className="w-5 h-5 relative z-10" />
+                  <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-600 to-teal-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </a>
               </div>
             </div>
           </div>

@@ -31,13 +31,18 @@ config/credentials.json
 secrets/
 credentials/
 
-# Documentation & Notes (Markdown files)
+# Documentation & Notes (Markdown & Text files)
 *.md
 !README.md
 !CONTRIBUTING.md
 !CODE_OF_CONDUCT.md
 !CHANGELOG.md
 !LICENSE.md
+
+# Text Documentation files
+*.txt
+!requirements.txt
+!package.txt
 
 # Database
 *.db
